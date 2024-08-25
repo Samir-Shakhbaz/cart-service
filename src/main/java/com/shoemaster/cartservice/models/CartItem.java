@@ -22,6 +22,8 @@ public class CartItem {
     @Column(nullable = false)
     private Integer amount;
 
+
+
     @ManyToOne
     @JoinColumn(name = "cart_id")
     @JsonIgnore
